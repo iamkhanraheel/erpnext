@@ -14,7 +14,8 @@
   "item_section",
   "items",
   "section_break_4",
-  "about"
+  "about",
+  "amended_from"
  ],
  "fields": [
   {
@@ -72,12 +73,23 @@
   {
    "fieldname": "column_break_eonk",
    "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Product Bundle",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
   }
  ],
  "icon": "fa fa-sitemap",
  "idx": 1,
+ "is_submittable": 1,
  "links": [],
- "modified": "2024-03-27 13:10:19.599302",
+ "modified": "2025-07-01 12:54:33.664598",
  "modified_by": "Administrator",
  "module": "Selling",
  "name": "Product Bundle",
@@ -113,7 +125,9 @@
    "write": 1
   }
  ],
+ "row_format": "Dynamic",
  "sort_field": "creation",
  "sort_order": "ASC",
- "states": []
+ "states": [],
+ "track_changes": 1
 }

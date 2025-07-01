@@ -20,6 +20,7 @@ class ProductBundle(Document):
 
 		from erpnext.selling.doctype.product_bundle_item.product_bundle_item import ProductBundleItem
 
+		amended_from: DF.Link | None
 		description: DF.Data | None
 		disabled: DF.Check
 		items: DF.Table[ProductBundleItem]
